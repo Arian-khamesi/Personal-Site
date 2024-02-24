@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from '../Contact/Contact'
 
 export default function Footer() {
     return (
@@ -11,30 +12,10 @@ export default function Footer() {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-3">
-                        <div class="py-4 d-flex justify-content-between align-items-center px-custom custom-border icon-cell">
-                            <span class="text-white custom-span custom-font">Behance</span>
-                            <a href="#"><i class="bi bi-behance icon"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <div class="py-4 d-flex justify-content-between align-items-center px-custom custom-border icon-cell">
-                            <span class="text-white custom-span custom-font">Dribble</span>
-                            <a href="#"><i class="bi bi-dribbble icon"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <div class="py-4 d-flex justify-content-between align-items-center px-custom custom-border icon-cell">
-                            <span class="text-white custom-span custom-font">Medium</span>
-                            <a href="#"><i class="bi bi-medium icon"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <div class="py-4 d-flex justify-content-between align-items-center px-custom custom-border icon-cell">
-                            <span class="text-white custom-span custom-font">Linkedin</span>
-                            <a href="#"><i class="bi bi-linkedin icon"></i></a>
-                        </div>
-                    </div>
+                    <Contact title={"Behance"} icon={"bi-behance"} />
+                    <Contact title={"Dribble"} icon={"bi-dribbble"} />
+                    <Contact title={"Medium"} icon={"bi-medium"} />
+                    <Contact title={"Linkedin"} icon={"bi-linkedin"} />
                 </div>
                 <div class="row">
                     <div class="col-xl-12">
