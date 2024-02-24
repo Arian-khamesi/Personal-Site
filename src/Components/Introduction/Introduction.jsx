@@ -1,4 +1,5 @@
 import React from 'react'
+import Progress from '../Progress/Progress'
 
 export default function Introduction() {
   return (
@@ -14,27 +15,9 @@ export default function Introduction() {
             <a href="#" class="mt-5 d-block text-decoration-none py-3 px-5 custom-link custom-font">Download CV</a>
           </div>
           <div class="col-12 col-md-6 col-lg-5 offset-lg-1 max-width px-3">
-            <div class="mb-3 d-flex justify-content-between">
-              <span class="text-white custom-font">Wireframing</span>
-              <span class="text-white custom-font">78%</span>
-            </div>
-            <div class="progress mb-4 prog-h">
-              <div class="progres-bar prog"></div>
-            </div>
-            <div class="mb-3 d-flex justify-content-between">
-              <span class="text-white custom-font">UI/UX</span>
-              <span class="text-white custom-font">75%</span>
-            </div>
-            <div class="progress mb-4 prog-h">
-              <div class="progres-bar w-75 prog"></div>
-            </div>
-            <div class="mb-3 d-flex justify-content-between">
-              <span class="text-white custom-font">Interaction design</span>
-              <span class="text-white custom-font">50%</span>
-            </div>
-            <div class="progress mb-4 prog-h">
-              <div class="progres-bar w-50 prog"></div>
-            </div>
+            <Progress title={"Wireframing"} percent={78}/>
+            <Progress title={"UI/UX"} percent={75}/>
+            <Progress title={"Interaction design"} percent={50}/>
           </div>
         </div>
       </div>
