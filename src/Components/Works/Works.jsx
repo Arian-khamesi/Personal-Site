@@ -1,4 +1,5 @@
 import React from 'react'
+import MyWork from '../MyWork/MyWork'
 
 export default function Works() {
     return (
@@ -11,48 +12,12 @@ export default function Works() {
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="text-center">
-                            <div>
-                                <img src="images/work1.webp" class="img-fluid" alt="Mobile" />
-                            </div>
-                            <div class="mt-2 py-4 mb-70">
-                                <span class="text-white custom-font">Mobile App</span><br />
-                                <a href="#" class="text-decoration-none fs-3 color custom-font">Colorlib App Project</a>
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <div>
-                                <div>
-                                    <img src="images/work2.webp" class="img-fluid" alt="Mobile" />
-                                </div>
-                                <div class="mt-2 py-4 mb-70">
-                                    <span class="text-white custom-font">Mobile App</span><br />
-                                    <a href="#" class="text-decoration-none fs-3 color custom-font">Colorlib App Project</a>
-                                </div>
-                            </div>
-                        </div>
+                        <MyWork img={"images/work1.webp"} title={"Front End"} desc={"Colorlib App Project"}/>
+                        <MyWork img={"images/work2.webp"} title={"Java Script"} desc={"Colorlib App Project"}/>
                     </div>
                     <div class="col-md-6">
-                        <div class="text-center">
-                            <div>
-                                <img src="images/work3.webp" class="img-fluid" alt="Mobile" />
-                            </div>
-                            <div class="mt-2 py-4 mb-70">
-                                <span class="text-white custom-font">Mobile App</span><br />
-                                <a href="#" class="text-decoration-none fs-3 color custom-font">Colorlib App Project</a>
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <div>
-                                <div>
-                                    <img src="images/work4.webp" class="img-fluid" alt="Mobile" />
-                                </div>
-                                <div class="mt-2 py-4 mb-70">
-                                    <span class="text-white custom-font">Mobile App</span><br />
-                                    <a href="#" class="text-decoration-none fs-3 color custom-font">Colorlib App Project</a>
-                                </div>
-                            </div>
-                        </div>
+                    <MyWork img={"images/work3.webp"} title={"React Js"} desc={"Colorlib App Project"}/>
+                    <MyWork img={"images/work4.webp"} title={"Next Js"} desc={"Colorlib App Project"}/>
                     </div>
                 </div>
                 <div class="row">
