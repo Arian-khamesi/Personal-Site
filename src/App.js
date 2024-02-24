@@ -1,17 +1,16 @@
 
 import './App.css';
-import Header from "./Components/Header/Header"
-import Body from './Components/MainBody/Body';
-import Footer from './Components/Footer/Footer';
+import routs from './routs';
+import { useRoutes } from 'react-router-dom';
 
 function App() {
+const router=useRoutes(routs)
+
   return (
     <>
-    <Header/>
-    <Body/>
-    <Footer/>
+    {router}
     </>
-  );
+  )
 }
 
 export default App;

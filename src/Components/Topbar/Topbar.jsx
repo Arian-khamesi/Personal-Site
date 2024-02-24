@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Topbar() {
   return (
@@ -27,7 +28,7 @@ export default function Topbar() {
               pages
             </a>
             <ul class="dropdown-menu custom-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="pages/persion.html">persion version</a></li>
+              <li><Link class="dropdown-item" to="/persian">persion version</Link></li>
               <li><a class="dropdown-item" href="#">Work Details</a></li>
             </ul>
           </li>
@@ -48,7 +49,7 @@ export default function Topbar() {
           </li>
         </ul>
         <form class="d-flex d-none d-lg-block">
-          <button class="btn custom-btn color custom-font" type="submit">Let's Talk</button>
+          <Link class="btn custom-btn color custom-font" type="submit" to={"/persian"}>فارسی</Link>
         </form>
       </div>
     </div>

@@ -1,0 +1,215 @@
+.custom-font{
+    font-family: 'Roboto', sans-serif !important;
+}
+.color{
+    color: #DB9A64 !important;
+}
+.bgmenu{
+    background-color: #222;
+}
+.custom-btn{
+    border: 1px solid #DB9A64 !important;
+    border-radius: 0px !important;
+}
+.custom-btn2{
+    border: 1px solid #DB9A64 !important;
+}
+.custom-btn:hover{
+    background-color: #DB9A64;
+    color: #fff !important;
+    transition: all;
+}
+.custom-btn2:hover{
+    background-color: #DB9A64;
+    color: #fff !important;
+    transition: 0.5s;
+}
+.first-bg{
+    height: 700px;
+    background-image: url("../../../public/images/first-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.custom-back{
+    background-color: #311e25 !important;
+}
+.img-div{
+    min-width: 320px !important;
+    max-width: 600px !important;
+}
+.second-bg{
+    background: #311e25;
+}
+.py-90{
+    padding: 90px 0px;
+}
+.prog{
+    width: 78%;
+    background-color: #DB9A64;
+}
+.prog-h{
+    height: 6px !important;
+}
+.ms-12{
+    margin-left: 213px;
+}
+.ms-11{
+margin-left: 172px;
+}
+.ms-10{
+    margin-left: 257px;
+}
+.max-width{
+    max-width: 477px;
+}
+.custom-link{
+    border: 1px solid #DB9A64;
+    color: #DB9A64 !important;
+    max-width: 196px;
+    min-width: 150px;
+    transition: all;
+}
+.custom-link:hover{
+    background-color: #DB9A64;
+    color: #fff !important;
+    transition: 0.5s;
+}
+/*//////////////////////////////////////////////////*/
+.third-bg{
+    background-color: #3B2930;
+    padding: 120px 0 90px;
+}
+.custom-border{
+    border: 1px solid #6B4B40;
+}
+.max-w{
+    max-width: 510px;
+    margin-bottom: 30px;
+}
+/*////////////////////////////////////////////////////////////////*/
+.fourth-bg{
+    background-color: #311E25;
+    padding: 120px 0;
+}
+.mb-70{
+    margin-bottom: 70px;
+}
+.custom-border2{
+    border: 1px solid #DB9A64;
+}
+.more-work:hover{
+    background-color: #DB9A64;
+    color: #fff !important;
+    transition: 0.5s;
+}
+/*////////////////////////////////////////////////////////////////*/
+.fifth-bg{
+    background-color: #3B2930;
+    padding: 106px 0 50px;
+
+}
+.mb-slid{
+    margin-bottom: 165px !important;
+}
+/*////////////////////////////////////////////////////////////////*/
+.sixth-bg{
+    padding-top: 145px;
+    background-image: url("../../../public/images/first-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.custom-span{
+    font-size: 24px;
+}
+.icon{
+    color: #DB9A64;
+}
+.icon-cell{
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all;
+}
+.icon-cell:hover{
+    background-color: #ccad85;
+    transition: .3s
+}
+.icon-cell:hover .icon{
+   color: #fff;
+}
+.m-90{
+    margin-bottom: 95px;
+}
+.copy{
+    font-size: 14px;
+    color: #919191;
+    font-weight: 500;
+    margin-top: 129px;
+    margin-bottom: 30px;
+}
+/*///////////////////////////////media/////////////////////////////////////////*/
+@media all and (max-width:767px){
+    .custom-nav{background-color:#4C4C4C !important;}
+    .link-hover:hover{
+        border-radius: 6px;
+        background: #ccc !important;
+        color: #222 !important; 
+    }
+    .px-custom{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .custom-h2{
+        font-size: 30px;
+    }
+}
+@media all and (min-width:768px) and (max-width:991px){
+    .custom-nav{background-color:#4C4C4C !important;}
+    .link-hover:hover{
+        border-radius: 6px;
+        background: #ccc !important;
+        color: #222 !important; 
+    }
+    .px-custom{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .custom-h2{
+        font-size: 54px;
+    }
+}
+@media all and (min-width:992px) and (max-width:1199px){
+    .px-custom{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .custom-h2{
+        font-size: 60px;
+        line-height: 90px;
+    }
+    .dropdown:hover .custom-menu{
+        display: block;
+        transition: 0.3s;
+    }
+}
+@media all and (min-width:1200px){
+    .img-div{
+        min-width: 487px;
+    }
+    .ds{
+        height: 600px !important;
+    }
+    .px-custom{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .custom-h2{
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .dropdown:hover .custom-menu{
+        display: block;
+        transition: 0.3s;
+    }
+}
