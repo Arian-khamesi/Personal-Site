@@ -6,7 +6,7 @@ export default function Persian() {
   return (
     <>
       <div class="w-100 first-bg">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark mx-4 custom-nav custom-back">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark custom-nav custom-back">
           <div class="container-fluid">
             <a class="navbar-brand fs-1 color custom-font" href="#">آریان</a>
             <button class="navbar-toggler border-dark bgmenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +59,7 @@ export default function Persian() {
         </nav>
         <div class="container h-100 px-0">
           <div class="row d-flex justify-content-center h-100">
-            <div class="col-10 col-lg-8 d-lg-inline-block align-self-center px-0">
+            <div class="col-10 col-lg-8 d-lg-inline-block align-self-center px-0 text-end">
               <h2 class="mb-5 text-white custom-h2 custom-font">سلام من آریان هستم
                 <br /><span class="color custom-font">طراح خلاق</span></h2>
               <a href="#" class="border border-1 px-5 py-3 text-decoration-none color custom-btn2 custom-font">کارامو اینجا ببین</a>
@@ -74,12 +74,12 @@ export default function Persian() {
         <div class="container">
           <div class="row">
             <div class="col-xl-10 mb-4 mb-md-5">
-              <h3 class="text-white mb-3 text-start fs-1 custom-font">من یه طراح خلاق اهل سنندجم که عاشق طراحی تمیز، ساده و منحصر به فردم. از هنرآفرینی هم لذت می برم. </h3>
+              <h3 class="text-white mb-3 text-start fs-1 custom-font text_right">من یه طراح خلاق اهل سنندجم که عاشق طراحی تمیز، ساده و منحصر به فردم. از هنرآفرینی هم لذت می برم. </h3>
             </div>
-            <div class="col-12 col-md-6 mb-5">
-              <p class="text-white text-start my-4 custom-fonnt">لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید </p>
-              <p class="text-white text-start mb-4 custom-font"> از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند </p>
-              <a href="#" class="mt-5 d-block text-decoration-none py-3 px-5 custom-link custom-font">دانلود نمونه</a>
+            <div class="col-12 col-md-6 mb-5 ">
+              <p class="text-white text-end my-4 custom-fonnt text_right">لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید </p>
+              <p class="text-white text-end mb-4 custom-font "> از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند </p>
+              <a href="#" class="mt-5 d-block text-decoration-none py-3 px-5 custom-link custom-font ">دانلود نمونه</a>
             </div>
             <div class="col-12 col-md-6 col-lg-5 offset-lg-1 max-width px-3">
               <div class="mb-3 d-flex justify-content-between">
@@ -111,7 +111,7 @@ export default function Persian() {
         <div class="container">
           <div class="row mb-5">
             <div class="col-12">
-              <h3 class="text-white custom-font">خدمات من</h3>
+              <h3 class="text-white custom-font text-end">خدمات من</h3>
             </div>
           </div>
           <div class="row">
@@ -143,7 +143,7 @@ export default function Persian() {
         <div class="container">
           <div class="row mb-5">
             <div class="col-12">
-              <h3 class="text-white fs-1 custom-font">طراحی های من</h3>
+              <h3 class="text-white fs-1 custom-font text-end">طراحی های من</h3>
             </div>
           </div>
           <div class="row">
@@ -205,7 +205,7 @@ export default function Persian() {
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h3 class="text-white fs-1 mb-4">سخن بزرگان</h3>
+              <h3 class="text-white fs-1 mb-4 slider">سخن بزرگان</h3>
             </div>
             <div class="col-12">
               <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -254,13 +254,13 @@ export default function Persian() {
         <div class="container">
           <div class="row m-90">
             <div class="col-lg-8">
-              <h3 class="text-white fs-1 mb-4 custom-font">یه پروژه مدنظرته؟<a href="#" class="text-decoration-none color custom-font">بیا دربارش صحبت کنیم</a></h3>
-              <p class="text-white custom-font">لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای </p>
+              <h3 class="text-white fs-1 mb-4 custom-font text-end">یه پروژه مدنظرته؟<a href="#" class="text-decoration-none color custom-font">بیا دربارش صحبت کنیم</a></h3>
+              <p class="text-white custom-font text-end">لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای </p>
             </div>
           </div>
           <div class="row">
             <div class="col-12 col-md-3">
-              <div class="py-4 d-flex justify-content-between align-items-center px-custom custom-border icon-cell">
+              <div class="py-4 d-flex justify-content-between align-items-center px-custom custom-border icon-cell ">
                 <span class="text-white custom-span custom-font">رفتار</span>
                 <a href="#"><i class="bi bi-behance icon"></i></a>
               </div>

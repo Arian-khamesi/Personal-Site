@@ -1,3 +1,4 @@
+
 .custom-font{
     font-family: 'Roboto', sans-serif !important;
 }
@@ -147,6 +148,12 @@ margin-left: 172px;
     font-weight: 500;
     margin-top: 129px;
     margin-bottom: 30px;
+}
+.slider{
+    text-align: center;
+}
+.text_right{
+    text-align: right !important;
 }
 /*///////////////////////////////media/////////////////////////////////////////*/
 @media all and (max-width:767px){

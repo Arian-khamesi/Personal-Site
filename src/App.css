@@ -148,9 +148,16 @@ margin-left: 172px;
   margin-top: 129px;
   margin-bottom: 30px;
 }
+
+.slider{
+  text-align: center;
+}
 /*///////////////////////////////media/////////////////////////////////////////*/
 @media all and (max-width:767px){
-  .custom-nav{background-color:#4C4C4C !important;}
+  .custom-nav{
+    background-color:#4C4C4C !important;
+    padding: 0px 20px;
+  }
   .link-hover:hover{
       border-radius: 6px;
       background: #ccc !important;

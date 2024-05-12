@@ -5,8 +5,8 @@ export default function Slider() {
         <div class="w-100 fifth-bg">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <h3 class="text-white fs-1 mb-4">What Clients say</h3>
+                    <div class="col-12 mb-4">
+                        <h3 class="text-white fs-1 mb-4 slider">What Clients say</h3>
                     </div>
                     <div class="col-12">
                         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

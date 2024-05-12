@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Topbar() {
   return (
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark mx-4 custom-nav custom-back">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark custom-nav custom-back">
     <div class="container-fluid">
       <a class="navbar-brand fs-1 color custom-font" href="#">Arian</a>
       <button class="navbar-toggler border-dark bgmenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
